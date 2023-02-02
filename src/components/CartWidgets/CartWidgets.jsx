@@ -4,7 +4,7 @@ export const CartWidget = () => {
   return (
     <>
       <div className="conteinerLogo">
-        <i className="bi bi-cart2"></i>
+        <i className="bi bi-cart2" style={{color: "black"}}></i>
       </div>
       <div>
         <p>9</p>
