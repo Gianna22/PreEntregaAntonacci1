@@ -1,10 +1,12 @@
 import React from "react";
 import CartWidget from "../CartWidgets/CartWidgets";
+import Logo from "../Logo/Logo";
 
 
 export const Navbar = () => {
   return (
     <>
+      <Logo></Logo>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="./index.js">
           Inciar sesion
