@@ -2,8 +2,7 @@ import React from "react";
 import CartWidget from "../CartWidgets/CartWidgets";
 import Logo from "../Logo/Logo";
 
-
-export const Navbar = () => {
+ const Navbar = () => {
   return (
     <>
       <Logo></Logo>
