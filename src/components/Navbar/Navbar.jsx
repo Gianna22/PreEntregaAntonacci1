@@ -1,6 +1,7 @@
 import React from "react";
-import CartWidget from "../CartWidgets/CartWidgets";
 import Logo from "../Logo/Logo";
+import reportWebVitals from "../styles/reportWebVitals";
+import { Link } from "react-router-dom";
 
  const Navbar = () => {
   return (
@@ -26,16 +27,6 @@ import Logo from "../Logo/Logo";
             <li className="nav-item active">
               <a className="nav-link" href="../Contact.jsx">
                 Contactanos <span className="sr-only"></span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="../Product.jsx">
-                Productos
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <CartWidget />
               </a>
             </li>
           </ul>

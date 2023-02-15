@@ -5,7 +5,7 @@ const ItemConteiner = ({ nombre }) => {
   return (
     <>
       <div>
-        <h2> Bienvenidos a {nombre}</h2>
+        <h2> Bienvenidos a Dobby Lenceria {nombre}</h2>
       </div>
     </>
   );
